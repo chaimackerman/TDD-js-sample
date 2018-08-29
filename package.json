@@ -1,0 +1,22 @@
+{
+  "name": "tdd-js-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaimackerman/TDD-js-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chaimackerman/TDD-js-sample/issues"
+  },
+  "homepage": "https://github.com/chaimackerman/TDD-js-sample#readme",
+  "dependencies": {
+    "mocha": "^5.2.0"
+  }
+}
