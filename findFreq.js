@@ -10,7 +10,6 @@ const findFreq = (list) => {
   var hist = [];
 
   for (var k of list) {
-    console.log(k);
     if (isNaN(hist[k])) {
       hist[k] = 0;
     }
@@ -21,8 +20,8 @@ const findFreq = (list) => {
     }
   }
 
-  console.log(hist);
   return max_val;
+};
 
 
-module.exports = { findMaj: findFreq };
+module.exports = { findFreq };
