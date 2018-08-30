@@ -1,7 +1,7 @@
 const findFreq = (list) => {
 
   if (list.length === 0) {
-    return('');
+    return(null);
   }
 
   var max_hist = 0;

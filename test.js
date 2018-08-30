@@ -10,7 +10,7 @@ it('Basic functionality', () => {
 
 it('Empty List', () => {
   const list = [ ];
-  assert.equal('', findFreq.findFreq(list));
+  assert.equal(null, findFreq.findFreq(list));
 });
 
 it('One item', () => {
