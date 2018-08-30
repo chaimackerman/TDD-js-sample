@@ -4,8 +4,8 @@ const findFreq = require('./findFreq.js');
 const assert = require('assert');
 
 it('Basic functionality', () => {
-  const list = [ 23, 45, 45 ];
-  assert.equal(45, findFreq.findFreq(list));
+  const list = [ 23, 45, 23, 23, 45, 45, 23 ];
+  assert.equal(23, findFreq.findFreq(list));
 });
 
 it('Empty List', () => {
@@ -25,7 +25,7 @@ it('Negative items', () => {
 
 it('Huge List', () => {
   var list = [ -23 ];
-  list.push(...Array.from(Array(3).keys())); // create a range of numbers from 0 to N
+  list.push(...Array.from(Array(1000).keys())); // create a range of numbers from 0 to N
   list.push(-23);
   assert.equal(-23, findFreq.findFreq(list));
 });
